@@ -1,0 +1,7 @@
+name = input("Your name: ")
+surname = input("Your surname: ")
+university = input("Your university name: ")
+field_of_study = input("Your field of study: ")
+file = open('data.txt', 'w', encoding="utf-8")
+file.write(f"{name}  \n{surname}  \n{university} \n{field_of_study}")
+file.close()
